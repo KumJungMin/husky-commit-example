@@ -8,6 +8,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "commitizen": "^4.2.5",
     "husky": "^8.0.0",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
@@ -16,6 +17,16 @@
     "stylelint-config-standard-scss": "^4.0.0"
   },
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cm": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@commitlint/prompt"
+    }
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "init": "^0.1.2"
   }
 }
