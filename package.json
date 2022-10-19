@@ -6,6 +6,8 @@
   "author": "KumJungMin <rmawjdals@naver.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "husky": "^8.0.0",
     "stylelint": "^14.9.1",
     "stylelint-config-prettier": "^9.0.3",
