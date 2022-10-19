@@ -18,7 +18,8 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "cm": "cz"
+    "cm": "cz",
+    "stylelint": "stylelint --ignore-path .gitignore '**/*.css' '**/*.scss'"
   },
   "config": {
     "commitizen": {
