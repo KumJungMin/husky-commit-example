@@ -1,0 +1,15 @@
+{
+  "name": "husky-commit-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/KumJungMin/husky-commit-example.git",
+  "author": "KumJungMin <rmawjdals@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint": "^14.9.1",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-standard-scss": "^4.0.0"
+  }
+}
